@@ -1,0 +1,29 @@
+{
+    "name": "fatrex/laravel-kaleido",
+    "description": "A schema manager for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fatrex\\LaravelKaleido\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fatrex\\LaravelKaleido\\LaravelKaleidoServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniele Lenares",
+            "email": "daniele@lenares.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0|^12.0"
+    }
+}
