@@ -47,7 +47,7 @@ class KaleidoSync extends Command
 
         if (!File::exists($dlsPath)) {
             $this->error('Schema file not found: ' . $dlsPath);
-            return;
+            return 1;
         }
 
         $schemaContent = File::get($dlsPath);
