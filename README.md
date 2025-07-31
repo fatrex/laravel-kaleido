@@ -1,5 +1,8 @@
 # Kaleido: A schema manager for Laravel
 
+> [!WARNING]  
+> This project is in early development and is not ready for production use.
+
 This project provides a powerful Domain-Specific Language (DSL) to define your database schema for Laravel applications. It allows you to define your models, fields, and relationships in a single, human-readable file. 
 
 The tool automatically generates Laravel migrations and Eloquent models based on your schema definition, streamlining your development workflow.
